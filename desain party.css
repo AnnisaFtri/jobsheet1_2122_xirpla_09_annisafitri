@@ -294,7 +294,7 @@ section {
 	font-size: 30px;
 	border: 3px solid rgb(231, 72, 158);
 	margin-bottom: 30px;
-	margin-left: 20%;
+	margin-left: 30%;
 
 }
 .form_group {
@@ -355,13 +355,23 @@ section {
 video{
 	width:500px;
 	height:400px;
-	margin-bottom: 200px;
+	margin-bottom: 150px;
+	border-radius: 10%;
+	
 }
 iframe{
 	width:400px;
 	height: 340px;
 	margin-left: 30px;
-	margin-bottom: 200px;
+	margin-bottom: 150px;
+	border-radius: 10%;
+}
+.pic-2{
+	display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+
 }
 .section_image {
 	width: 540px;
@@ -378,9 +388,10 @@ footer {
     height: 100px;
     display: flex;
     background-color: #FA8072;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+
 }
  
 footer p,
